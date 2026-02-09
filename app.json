@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "TransportGo",
+    "slug": "transport-go",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "transportgo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A1628"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.transportgo"
+    },
+    "android": {
+      "package": "com.transportgo",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A1628",
+        "foregroundImage": "./assets/images/icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
